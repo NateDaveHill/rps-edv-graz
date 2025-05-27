@@ -1,0 +1,80 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background: lightblue;
+    padding: 24px;
+    max-width: 400px;
+    margin: 24px auto;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 16px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header-item {
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.body-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.icon-btn {
+    background: #f2f2f2;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.dynamic-text {
+    margin-top: 16px;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    min-height: 24px;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}
+
+  .reset-btn {
+    margin-top: 16px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    width: 100%;
+  }
+  
+  .reset-btn:hover {
+    background: #e0e0e0;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .icon-btn:active .game-icon {
+    animation: spin 0.5s ease-out;
+  }
+  
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <a href="https://www.flaticon.com/free-icons/rock-paper-scissors" title="rock paper scissors icons">Rock paper scissors icons created by iconading - Flaticon</a>
+
+</head>
+<body>
+    <div class="card">
+        <div class="header-grid">
+            <div class="header-item"> Player</div>
+            <div class="header-item"> Computer</div>
+            <div class="header-item" id="player-score"> Player Score</div>
+            <div class="header-item" id="bot-score"> Computer Score</div>
+        </div>
+        <div class="body-columns">
+            <button class="icon-btn">
+                <img class="game-icon"  id="paper-icon" data-icon="paper" src="var/paper-icon.png" alt="Paper Icon" width="50" height="50"/>
+            </button>
+            <button class="icon-btn">
+                <img class="game-icon"  id="scissor-icon" data-icon="scissor" src="var/scissors-icon.png" alt="Scissors Icon" width="50" height="50"/>
+            </button>
+            <button class="icon-btn">
+                <img class="game-icon"  id="rock-icon" data-icon="rock" src="var/rock-icon.png" alt="Rock Icon" width="50" height="50"/>
+            </button>
+        </div>
+        <div id="dynamic-text" class="dynamic-text">
+        </div>
+        <div>
+            <button id="reset-btn" class="reset-btn">Reset Game</button>
+        </div>
+    </div>
+</body>
+</html>
